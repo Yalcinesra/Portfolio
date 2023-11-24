@@ -24,6 +24,27 @@ body {
     }
   }
 }
+
+.player-kart{
+  height: 400px;
+   /* width:280px; */
+    max-width: 280px;
+ 
+ }
+ 
+ .player-logo{
+     height:350px;
+     transition:transform 0.8s
+ }
+ .player-kart:hover .player-logo{
+ 
+     transform:scale(0.95)
+ 
+ }
+ 
+ .player-kart:hover{
+      box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+ }
 .nav-link {
   margin: 20px;
   color:#B39047  !important;

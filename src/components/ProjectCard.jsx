@@ -25,7 +25,7 @@ getData()
  
  <Card className="rounded-2 m-auto player-kart 
   "  >
-      <Card.Img className="kart" onClick={()=>navigate('/update-project',{state:{project}})} src={image}  />
+      <Card.Img className="player-logo" onClick={()=>navigate('/update-project',{state:{project}})} src={image}  />
       <Card.Body>
         <Card.Title >{name}</Card.Title>
         <Card.Text>
