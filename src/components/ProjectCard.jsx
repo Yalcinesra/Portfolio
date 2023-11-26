@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-
+import project from "../assets/project.jpg"
 const ProjectCard = ({project,getData}) => {
  
 const {id,name,live,title,image}=project
@@ -25,7 +25,7 @@ getData()
  
  <Card className="rounded-2 m-auto player-kart 
   "  >
-      <Card.Img className="player-logo" onClick={()=>navigate('/update-project',{state:{project}})} src={image}  />
+      <Card.Img className="player-logo" variant="top" onClick={()=>navigate('/update-project',{state:{project}})} src= {project} />
       <Card.Body>
         <Card.Title >{name}</Card.Title>
         <Card.Text>
