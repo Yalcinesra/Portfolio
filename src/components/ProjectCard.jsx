@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import foto from "../assets/project.jpg"
 const ProjectCard = ({project,getData}) => {
  
-const {id,name,live,title,image}=project
+const {id,name,live,title}=project
 const navigate=useNavigate()
 
 
@@ -37,47 +37,7 @@ getData()
       </Card.Body>
     </Card></div>
 
-    // <div className="card shadow-lg mb-3">
-    //   <div className="row g-0">
-    //     <div className="col col-md-5">
-
-    //       <img
-    //         src={image}
-    //         className="w-100 h-100 rounded-start"
-    //         alt={"name"}
-    //         title={""}
-    //       />
-    //     </div>
-    //     <div className="col-md-7">
-    //       <div className="card-body">
-    //         <h5
-    //           className="card-title"
-    //           role="button"
-    //        onClick={()=>navigate('/update-product',{state:{project}})}
-    //         >
-    //         {name}
-    //         </h5>
-    //         <div className=" d-flex flex-wrap align-items-center">
-         
-    //           <span className="h5 text-dark ms-2">
-    //            <a className="text-decoration-none" href={live}>Live Demo</a>
-    //           </span>
-    //         </div>
-         
-    //         <div className="product-removal mt-4">
-    //           <button
-    //             className="btn btn-danger btn-sm w-50 remove-product"
-    //             onClick={handleRemove}
-    //           >
-    //             <i className="fa-solid fa-trash-can me-2"></i>Remove
-    //           </button>
-    //         </div>
-           
-           
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
+    
   );
 };
 

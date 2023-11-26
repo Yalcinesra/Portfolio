@@ -49,25 +49,7 @@ const ProjectForm = ({ handleSubmit, formVeri, setFormVeri }) => {
             required
           />
         </div>
-        <label htmlFor="add-image" className="form-label">
-          Product Image
-        </label>
-        <div className="input-group mb-3">
-          <span className="input-group-text" id="basic-addon3">
-            https://example.com/
-          </span>
-          <input
-            type="url"
-            className="form-control"
-            name="image"
-            value={formVeri.image}
-            aria-describedby="basic-addon3"
-            onChange={(e) =>
-              setFormVeri({ ...formVeri, image: e.target.value })
-            }
-            required
-          />
-        </div>
+        
         
         
         <div className="text-center">
