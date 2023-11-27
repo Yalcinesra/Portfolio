@@ -15,7 +15,7 @@ const AppRouter = () => {
     <Routes>
 <Route path ="/" element={<Main/>}/>
 <Route path ="/about" element={<About/>}/>
-<Route path ="/new-project" element={<NewProject/>}/>
+{/* <Route path ="/new-project" element={<NewProject/>}/> */}
 <Route path ="/project" element={<ProjectList/>}/>
 <Route path ="/contact" element={<Contact/>}/>
 <Route path ="/update-project" element={<UpdateProject/>}/>
