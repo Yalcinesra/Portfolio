@@ -7,12 +7,12 @@
   
 ## Expected Outcome
 
-![Shopping Cart](shopping-cart.gif)
+![Portfolio](portfolio.gif)
 
 
 ## Description
 
-Project aims to create a Shopping Cart App.
+Project aims to create a portfolio.
 
 ## Problem Statement
 
@@ -51,7 +51,7 @@ SOLUTION
 
 ## Objective
 
-Build a Shopping Cart App using ReactJS.
+Build a portfolio using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
