@@ -3,7 +3,7 @@
 # Portfolio
 
 ## Demo
-  <a href="https://portfolionew-esra.netlify.app/" target="_blank">Shopping Cart</a>
+  <a href="https://portfolionew-esra.netlify.app/" target="_blank">Portfolio</a>
   
 ## Expected Outcome
 
